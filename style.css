@@ -6,6 +6,12 @@
   font-family: "Inter", sans-serif;
 }
 
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -16,11 +22,11 @@ ul {
   list-style: none;
 }
 
-.row {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+.green {
+  color: rgb(13, 117, 30);
 }
+
+/* LANDING */
 
 .nav {
   margin-top: 10px;
@@ -69,4 +75,14 @@ ul {
   padding: 12px 32px;
   border-radius: 50px;
   border: none;
+}
+
+/* HEADER */
+
+.header__title {
+padding: 50px 24px;
+}
+
+.music {
+  max-width: 60%;
 }
