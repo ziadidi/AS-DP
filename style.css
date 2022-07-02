@@ -8,8 +8,13 @@
 
 .row {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1082px;
   margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 44px;
 }
 
 a {
@@ -20,6 +25,11 @@ a {
 ul {
   display: flex;
   list-style: none;
+}
+
+p {
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .green {
@@ -37,7 +47,7 @@ ul {
 }
 
 .logo {
-  height: 48px; 
+  height: 48px;
   padding-right: 10px;
 }
 
@@ -49,7 +59,9 @@ ul {
 }
 
 .nav__links {
-  padding-left: 250px;
+  display: flex;
+  padding-left: 204px;
+  justify-content: center;
 }
 
 .nav__link {
@@ -79,10 +91,68 @@ ul {
 
 /* HEADER */
 
-.header__title {
-padding: 50px 24px;
+#header {
+  padding-top: 96px;
 }
 
-.music {
-  max-width: 60%;
+.columns {
+  display: flex;
 }
+
+.left__column {
+  width: 40%;
+  padding: 50px 24px;
+}
+
+.right__column {
+  width: 60%;
+  padding: 50px 24px;
+}
+
+.emailstyle {
+  padding-left: 2rem;
+  padding-right: 44px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 44px;
+  border-width: 2px;
+  width: 100%;
+  font-weight: 500;
+  transition-duration: 300ms;
+}
+
+.emailbutton {
+  background-color: rgb(13, 117, 30);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 8px;
+  position: absolute;
+  border-radius: 44px;
+  padding: 10px;
+  display: flex;
+}
+
+.newsletter {
+  padding-top: 48px;
+  height: 2px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.sponsor {
+ padding-top: 96px;;
+}
+
+.spon {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.cos {
+  max-width: 100%;
+}
+
