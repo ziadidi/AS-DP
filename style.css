@@ -196,7 +196,8 @@ p {
   flex-direction: column;
 }
 
-img {
+.img__round {
+  margin-right: 15px;
   border: #0d9242 solid;
   border-width: 1px;
   text-align: center;
