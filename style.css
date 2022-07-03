@@ -196,13 +196,11 @@ p {
   flex-direction: column;
 }
 
-.img__container {
-  margin-right: 10px;
-  margin-bottom: 35px;
+img {
   border: #0d9242 solid;
   border-width: 1px;
   text-align: center;
   border-radius: 9999px;
-  padding: 1.25rem;
+  padding: 1.25rem; 
 }
 
