@@ -70,7 +70,7 @@ p {
 }
 
 .nav__link {
-  padding-left: 45px;
+  padding-left: 33px;
   color: #0d9242;
   font-weight: 700;
 }
@@ -78,6 +78,8 @@ p {
 .nav__login {
   padding-left: 75px;
   font-weight: 700;
+  display: flex;
+  align-items: center;
 }
 
 .log {
@@ -88,10 +90,13 @@ p {
 .btn {
   background-color: rgb(13, 117, 30);
   color: white;
+  font-size: 18px;
+  letter-spacing: 1.4px;
   font-weight: 500;
   padding: 12px 32px;
   border-radius: 50px;
   border: none;
+  cursor: pointer;
 }
 
 /* HEADER */
@@ -133,6 +138,7 @@ p {
   cursor: pointer;
   margin-right: 8px;
   position: absolute;
+  border: none;
   border-radius: 44px;
   padding: 10px;
   display: flex;
@@ -196,12 +202,54 @@ p {
   flex-direction: column;
 }
 
+.main__title {
+  padding-bottom: 10px;
+}
+
 .img__round {
   margin-right: 15px;
   border: #0d9242 solid;
   border-width: 1px;
   text-align: center;
   border-radius: 9999px;
-  padding: 1.25rem; 
+  padding: 1.25rem;
 }
 
+.row-2 {
+  width: 100%;
+  max-width: 1082px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.img {
+  width: 50%;
+  padding-left: 15px;
+}
+
+.text {
+  width: 50%;
+  flex-direction: column;
+}
+
+.sub__2 {
+  padding-bottom: 15px;
+  font-weight: 700;
+}
+
+.par {
+  padding-bottom: 30px;
+}
+
+.btn-2 {
+  max-width: 30%;
+  background-color: rgb(13, 117, 30);
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
