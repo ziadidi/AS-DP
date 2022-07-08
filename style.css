@@ -321,12 +321,12 @@ p {
   max-width: 90%;
   padding-bottom: 30px;
   line-height: 2.5;
-}  
+}
 
 .price-title {
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .par-2 {
@@ -375,4 +375,61 @@ p {
   border-radius: 50px;
   border: none;
   cursor: pointer;
+}
+
+.container-2 {
+  padding: 80px 0;
+  background-color: rgb(13, 117, 30);
+}
+
+.links {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 5);
+  align-items: center;
+}
+
+.li {
+  text-align: center;
+  line-height: 2.5;
+}
+
+.footer__info {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icone {
+  display: flex;
+}
+
+.par-3 {
+  color: white;
+}
+
+.book {
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(247, 250, 252, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(26, 32, 44, var(--tw-text-opacity));
+  transition-duration: 300ms;
+  margin-right: 1rem;
+}
+
+.book svg {
+  width: 1rem;
+  height: 1rem;
 }
