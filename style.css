@@ -333,48 +333,186 @@ p {
   text-align: center;
 }
 
+/*plans*/
+
+.row-3 {
+  width: 100%;
+  max-width: 1252px;
+  margin: 0 auto;
+}
+
 .plans {
-  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 22px;
+  justify-content: space-evenly;
 }
 
 .plan {
-  padding: 20px;
-  width: calc(100% / 3);
-  display: flex;
-  flex-direction: column;
+  padding-bottom: 38px;
 }
 
-.price {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.pri-tit {
-  font-size: 20px;
-  padding-bottom: 15px;
-}
-
-.h3 {
+.bqyt {
+  width: 100%;
+  max-width: 24rem;
+  margin-top: 4rem;
   text-align: center;
-  padding-top: 25px;
-  font-weight: 900;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.5rem;
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  position: relative;
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  --tw-bg-opacity: 1;
+  background-color: rgba(100, 21, 255, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(247, 250, 252, var(--tw-text-opacity));
+  background-image: linear-gradient(135deg, #125555 0%, rgb(28, 135, 101) 100%);
 }
 
-.btn-3 {
-  margin-left: 75px;
-  max-width: 50%;
-  background-color: rgb(13, 117, 30);
-  color: white;
-  font-size: 18px;
-  letter-spacing: 1.4px;
+.bqat {
+  width: 100%;
+  max-width: 24rem;
+  margin-top: 4rem;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.5rem;
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  position: relative;
+  padding-top: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(26, 32, 44, var(--tw-text-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  display: flex;
+  flex-direction: column;
+}
+
+.thing1 {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(74, 134, 126) 100%) repeat
+    scroll 0% 0%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 0.6rem;
+}
+
+.thingmiddle {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 0.6rem;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(115deg, rgb(130, 112, 10) 0%, rgb(236, 214, 19) 100%) repeat
+    scroll 0% 0%;
+}
+
+.thing2 {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%)
+    repeat scroll 0% 0%;
+
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 0.6rem;
+}
+
+.Usage {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 26px;
+  padding-bottom: 12px;
+}
+
+.Price {
+  padding-bottom: 12px;
+  font-size: 47px;
+}
+
+.Billing {
+  padding-bottom: 46px;
+}
+.buisnesses {
+  padding-bottom: 22px;
+}
+.templates {
+  margin: 0 auto;
+  text-align: center;
+}
+.items {
   font-weight: 500;
-  padding: 12px 20px;
-  border-radius: 50px;
-  border: none;
-  cursor: pointer;
+  opacity: 0.7;
+  padding: 12px;
+}
+.line {
+  padding-bottom: 70px;
+}
+
+.buybutton {
+  max-width: 14rem;
+  font-weight: 600;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-rotate: 0;
+
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  padding-top: 1rem;
+  width: 100%;
+  padding-bottom: 1rem;
+  font-size: 0.875rem;
+  line-height: inherit;
+}
+
+.buyleft {
+  color: white;
+
+  background: rgb(29, 29, 29)
+    linear-gradient(115deg, rgb(40, 95, 69) 0%, rgb(28, 119, 77) 100%) repeat
+    scroll 0% 0%;
+}
+.buymiddle {
+  color: white;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(115deg, rgb(20, 109, 66) 0%, rgb(148, 55, 39) 100%) repeat
+    scroll 0% 0%;
+}
+.buyright {
+  color: white;
+
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(115deg, rgb(168, 80, 56) 0%, rgb(71, 48, 121) 100%) repeat
+    scroll 0% 0%;
 }
 
 .container-2 {
@@ -416,8 +554,7 @@ p {
 }
 
 .book {
-  transition-property: background-color, border-color, color, fill, stroke,
-    opacity, box-shadow, transform;
+  transition-property: color, fill, stroke;
   cursor: pointer;
   padding: 0.5rem;
   border-radius: 9999px;
@@ -430,6 +567,7 @@ p {
 }
 
 .book svg {
+  display: block;
   width: 1rem;
   height: 1rem;
 }
