@@ -6,6 +6,10 @@
   font-family: "Inter", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .row {
   width: 100%;
   max-width: 1082px;
@@ -45,6 +49,66 @@ p {
 
 .green {
   color: rgb(13, 117, 30);
+}
+
+/* MENU */
+
+.btn__menu {
+  background-color: transparent;
+  font-size: 40px;
+  text-align: center;
+  border: none;
+  color: rgb(13, 117, 30);
+  display: none;
+}
+
+.menu__backdrop {
+  position: absolute;
+  background-color: rgba(4, 39, 26, 0.973);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menu--open .menu__backdrop {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu--open {
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
+.menu__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__list {
+  padding: 32px 0;
+}
+
+.menu__link {
+  font-size: 40px;
+  color: white;
+}
+
+.btn__menu--close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  padding: 8px;
+  color: white;
 }
 
 /* LANDING */
@@ -305,6 +369,7 @@ p {
 }
 
 .fonts-4 {
+  display: block;
   margin-right: 10px;
   background-color: rgb(13, 117, 30);
   color: white;
@@ -570,4 +635,24 @@ p {
   display: block;
   width: 1rem;
   height: 1rem;
+}
+
+@media (max-width: 768px) {
+  #header {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 550px) {
+  .nav__links {
+    display: none;
+  }
+
+  .nav__login {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+  }
 }
